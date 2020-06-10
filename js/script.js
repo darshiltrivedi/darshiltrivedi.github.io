@@ -15,15 +15,15 @@ window.onload = function(){
 
 function browser(){
     if(navigator.userAgent.indexOf("Chrome") != -1 ){
-        document.getElementById("profileimg").src = "../files/neel.webp";
+        document.getElementById("profileimg").src = "../files/Darshil.png";
         document.getElementById("chai").src = "../files/chai.webp";
     }
     else if(navigator.userAgent.indexOf("Safari") != -1){
-        document.getElementById("profileimg").src = "../files/neel-png.png";
+        document.getElementById("profileimg").src = "../files/Darshil.png";
         document.getElementById("chai").src = "../files/chai-png.png";
     }
     else if(navigator.userAgent.indexOf("Firefox") != -1 ) {
-      document.getElementById("profileimg").src = "../files/neel.webp";
+      document.getElementById("profileimg").src = "../files/Darshil.png";
         document.getElementById("chai").src = "../files/chai.webp";
     }
 }
