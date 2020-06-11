@@ -91,6 +91,7 @@
                 <tr>
                   <td><p style="font-size: 1.4rem;float: left">My Work</p><p style="float: right;margin-top: 5px">(more on github)</p></td>
                 </tr>
+		<p style="margin-top:10px;margin-left:10px;display: inline;"> Engineering Project </p>      
                 <tr>
                   <td>
                     <div class="card-group"  v-for="repo in repos">
@@ -105,8 +106,7 @@
                                     {{language}}
                                   </p>
                                   <p v-if="repo.description" style="margin-top:10px">{{repo.description}}</p>
-                                  <p v-else style="margin-top:10px">There is no description available for this repository on GitHub</p></div>
-                                  <p style="margin-top:10px;margin-left:10px;display: inline;"> Engineering Project </p> 
+                                  <p v-else style="margin-top:10px">There is no description available for this repository on GitHub</p></div> 
 			      </div>
                               </div>
                             </div>
